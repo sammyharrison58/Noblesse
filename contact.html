@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> PIXELS.co.ke</title>
+
+<head>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon scout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8ef1de9f50.js" crossorigin="anonymous"></script>
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        body {
+            background-color: rgb(24, 27, 27);
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            margin-right: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+            background-color: rgb(29, 28, 28);
+            /* border: 2px solid red; */
+        }
+
+        .foot h6 {
+            color: rgb(11, 75, 11);
+            font-size: 20px;
+            text-align: center;
+            margin-right: 50px;
+        }
+
+        .foot h1 {
+            color: white;
+            margin-left: 20px;
+        }
+
+        .contacts {
+            margin-top: 20px;
+        }
+
+        .contacts i {
+            padding: 10px;
+            /* border: 2px solid red; */
+            color: white;
+            background: rgb(29, 28, 28);
+            margin-bottom: 10px;
+            /* gap: 15px; */
+
+        }
+
+        .contacts i a {
+            /* border: 2px solid red; */
+            color: chocolate;
+            text-decoration: none;
+            list-style-type: none;
+            margin-left: 10px;
+            font-size: 20px;
+            /* gap: 15px; */
+        }
+
+        .down {
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+
+        .down a {
+            margin-right: 100px;
+            color: lightgray;
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .down a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            font-size: 20px;
+            width: 100vw;
+        }
+
+        .copy {
+            margin-top: 5px;
+            color: lightgray;
+            margin-right: 60px;
+        }
+
+        .container {
+            width: 60%;
+            max-width: 200px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0;
+        }
+
+        .header {
+            background: white;
+            padding: 40px 50px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0 0 16px 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-section {
+            display: flex;
+            flex-direction: row;
+            min-height: 100px;
+        }
+
+        .image-side {
+            flex: 2;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+                url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover no-repeat;
+            min-height: 100px;
+        }
+
+        .form-side {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1 class="page-header">
+        OUR CONTACTS at Harris Apex.com
+    </h1>
+    <nav class="site-nav">
+        <a class="brand" href="index.html">Harris Apex</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="left">
+            <ul class="list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p><i>OUR CONTACTS</i>
+        <br>Phone number: +254 748082906
+        <br>Email:sammyharrison58@gmail.com
+        <br>Location: Nairobi,Kenya
+        <br>Website:www.pixels.co.ke
+        <br>Instagram: @pixels.kenya
+        <br>Facebook: @pixels.ke
+    </p>
+
+    <div style="text-align: center;">
+        <img src="10.jpg" alt="Description of the image" width="500" class="animated-image">
+    </div>
+
+    <h4 class="section-header">
+        <I>OUR INFORMATION</I>
+    </h4>
+    We are here to assist you with any inquiries or support you may need.<br> Feel free to reach out to us through the
+    provided contact details, and our team will be happy to help you.<br> Your satisfaction is our priority, and we look
+    forward to hearing from you!
+    <br>We are committed to providing excellent customer service and ensuring that your experience with us is positive
+    and enjoyable.<br> Thank you for choosing PIXELS.co.ke!<br>
+    We value your feedback and suggestions, as they help us improve our services and better meet your needs.<br> Don't
+    hesitate to share your thoughts with us!
+
+
+
+
+    <div class="container">
+        <div class="header">
+            <h1>Send Us Your Feedback</h1>
+            <p>We value your feedback! Your input helps us continually improve our services and ensure we're meeting the
+                evolving needs of our clients. Please share your thoughts and suggestions with us. We appreciate your
+                time and feedback.</p>
+        </div>
+
+        <div class="form-section">
+            <div class="image-side">
+
+            </div>
+
+            <div class="form-side">
+                <form action="/submit-feedback" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <input placeholder="ENTER YOUR NAME" type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your email</label>
+                        <input placeholder="ENTER YOUR EMAIL" type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input placeholder="ENTER YOUR SUBJECT" type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your message</label>
+                        <textarea placeholder="ENTER YOUR MESSAGE" id="message" name="message" rows="4"
+                            required></textarea>
+
+
+
+                    </div>
+
+            </div>
+            <div>
+                </form>
+
+            </div>
+
+        </div>
+        <br><br>
+        <div class="form-group">
+            <a href="mailto:sammyharrison58@gmail.com">
+                <button class="submit-btn" type="submit"
+                    style="background-color:black; color:white;align-items:right ; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+                    Submit Feedback
+                </button></a>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+<br>
+<footer>
+
+
+    <div class="down">
+        <i class="fa-regular fa-envelope"><a href="#">admin@sammyharrison58@gmail.com</a></i>
+
+        <a href="#">WWW.Father_looksNewThemes.com</a>
+    </div>
+    <div class="line">
+        <hr>
+    </div>
+
+    <div class="copy">
+        <p> &copy;copyright-Father_Looks|All Rights Reserved </p>
+    </div>
+</footer>
+<script src="auth.js"></script>
+
+</html>
